@@ -24,13 +24,13 @@ La información recuperada de la API se presenta en una tabla en la misma págin
 ## Instalación
 1. Clonar el repositorio
 ```
-- https://github.com/MiguelBarreraD/Aplicaciones-Distribuidas.git
+- git clone https://github.com/MiguelBarreraD/Aplicaciones-Distribuidas.git
 ```
 1. Ingresar a la carpeta del proyecto
 ```
 - cd .\Aplicaciones-Distribuidas\
 ```
-1. Clonar el repositorio
+1. Correr el proyecto desde consola
 ```
 - mvn exec:java 
 ```
@@ -48,7 +48,7 @@ Métodos:
 
 2. Organización del código:
 
-Paquete: edu.escuelaing.arem.ASE.app (sugiere que el código pertenece a un proyecto o ejercicio académico).
+Paquete: edu.escuelaing.arem.ASE.app 
 
 Importaciones: 
 
@@ -76,7 +76,7 @@ Envío de la respuesta:
         - Un formulario HTML con un campo de entrada para el nombre de la   película y un botón de búsqueda.
         - Estilos CSS básicos para dar formato a la página.
         - JavaScript para manejar la búsqueda y mostrar los resultados dinámicamente.
-    Cierre de la conexión:
+        - Cierre de la conexión:
         - Una vez enviada la respuesta, el Socket del cliente se cierra.
         - El servidor continúa esperando nuevas conexiones.
 
